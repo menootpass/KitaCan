@@ -1,0 +1,9 @@
+#btn{
+	padding-right: 20px;
+}
+.nav{
+	margin-top: 10px;
+}
+ul li .nav-link{
+	color: black;
+}
