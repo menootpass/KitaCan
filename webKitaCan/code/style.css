@@ -2,6 +2,7 @@
 /* Google Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
 
 /*Google Font*/
 
@@ -14,6 +15,18 @@
 	margin-top: 15px;
 }
 
+
+#hiddenText{
+	visibility: hidden;
+	opacity: 0;
+	transition: 0.5s;
+}
+
+
+#hiddenText.active{
+	visibility: visible;
+	opacity: 1;
+}
 
 .nav-item .nav-link{
 	color: black;
@@ -36,7 +49,7 @@ h3,h1, p{
 }
 
 
-.row{
+.rowKonten{
 	padding-top: 70px;
 }
 
@@ -55,7 +68,6 @@ h3,h1, p{
 
 
 .col-sm-3 img{
-	width: 200px;
 	height: 200px;
 }
 
@@ -78,3 +90,23 @@ h3,h1, p{
 	border-radius: 10px;
 	background-color: floralwhite;
 }
+
+.footer{
+	margin-top: 270px;
+}
+
+
+#footer{
+	background-color: #1b1f24;
+	width: 70%;
+	height: fit-content;
+}
+
+.fc2{
+	background-color: white ;
+	color : black;
+	width: 70%;
+	height: 100%;
+}
+
+
